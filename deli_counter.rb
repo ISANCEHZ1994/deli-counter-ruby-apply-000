@@ -23,7 +23,6 @@ end
 def take_a_number(line)
     line.push(number)
     line.each do |number| 
-      position = position + 1
     end
     puts "#{number}."
 end
