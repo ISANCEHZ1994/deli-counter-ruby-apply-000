@@ -22,8 +22,8 @@ end
 $number = 1
 def take_a_number(line)
     line.push($number)
-    puts "#{$number}." 
-    number =  number + 1
+    puts "You are #{$number}." 
+    $number = $number + 1
   
 end
 
