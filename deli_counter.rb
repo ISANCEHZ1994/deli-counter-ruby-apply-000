@@ -19,7 +19,7 @@ end
 
 
 
-number = 1
+$number = 1
 def take_a_number(line)
     line.push(number)
     puts "#{number}." 
