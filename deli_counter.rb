@@ -20,8 +20,8 @@ end
 
 
 
-def take_a_number(names,name)
-    names.push(name)
+def take_a_number(line)
+    names.push(line)
     position = 0
     names.each do |name| 
       position = position + 1
