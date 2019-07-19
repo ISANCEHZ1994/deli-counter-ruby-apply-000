@@ -19,9 +19,8 @@ end
 
 
 
-
+number = 1
 def take_a_number(line)
-    number = 1
     line.push(number)
     puts "#{number}." 
     number =  number + 1 
