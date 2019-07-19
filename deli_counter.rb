@@ -21,12 +21,11 @@ end
 
 
 def take_a_number(line)
-    line.push(position)
-    position = 0
-    line.each do |position| 
+    line.push(number)
+    line.each do |number| 
       position = position + 1
     end
-    puts "You are number #{position} in line."
+    puts "#{number}."
 end
 
 
