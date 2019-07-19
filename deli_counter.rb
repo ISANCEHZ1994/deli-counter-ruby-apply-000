@@ -23,7 +23,8 @@ end
 def take_a_number(line)
     number = 1
     line.push(number)
-    puts "#{number}."
+    puts "#{number}." 
+    number =  number + 1 
 end
 
 
